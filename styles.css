@@ -1,0 +1,113 @@
+/* Styles communs */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+}
+tr
+header, nav, section, footer {
+    padding: 20px;
+}
+
+tr {
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+td {
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+/* Styles spécifiques pour la mise en page */
+header {
+    background-color: #283c9e00; /* Bleu */
+    color: #fff;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.button {
+    background-color: #0000003f; /* Bleu */
+    color: #fff;
+    border: 2px solid #0000003f; /* Bleu */
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+nav ul li a.button:hover {
+    background-color: transparent;
+    color: #0000003f; /* Bleu */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #283c9e00; /* Bleu */
+    color: #fff;
+    text-align: center;
+}
+
+#background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    object-fit: cover; /* Assurez-vous que la vidéo couvre tout le conteneur */
+    opacity: 0.4;
+    filter: brightness(3);
+}
+
+#chat {
+    width: 70%;
+    height: 70%;
+}
+
+
+.invisible {
+    display: none;
+  }
+
+
+.container {
+    max-width: 50%; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+#info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #33333300;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
